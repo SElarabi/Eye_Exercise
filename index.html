@@ -19,15 +19,28 @@
     <!-- private CSS -->
     <link rel="stylesheet " href="./styles.css " />
   </head>
-  <body class="bg-info text-light">
+  <body
+    style="
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: url('./MITBannerHomepage.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    "
+  >
     <!-- NAV BAR-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav
+      class="navbar sticky-top navbar-expand-md navbar-dark m-1"
+      style="background-color: rgb(3, 32, 32)"
+    >
+      <div class="container-fluid shadow-sm">
+        <a class="navbar-brand">
           <div class="pic-boita">
             <image
               class="centered-img"
-              src="./pictures/IMG_0036.JPG "
+              src="./pictures/mypic01.JPG "
               alt=" Eddie profile pic"
             />
           </div>
@@ -46,16 +59,15 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://selarabi.github.io/Portfolio/index.html"
-                >Home</a
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href=" https://selarabi.github.io/Portfolio/"
+                >Portfolio</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://selarabi.github.io/Portfolio/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://selarabi.github.io/Portfolio/contact.html">Contact</a>
-            </li>
+
+            <!-- dropdown list-->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -64,32 +76,57 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                My Website links
+                Visit projects site
               </a>
               <ul class="dropdown-menu">
-                <li></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://selarabi.github.io/Eye_Exercise/"
+                    >Eye Movement demo</a
+                  >
+                </li>
+                <li>
                   <a
                     class="dropdown-item"
                     href="https://selarabi.github.io/PacMen_Exercise/"
-                    >Pacmen exercise</a
+                    >Packmen Exercise</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">site3</a></li>
+                <li><a class="dropdown-item" href="#">Real Time Tracker</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <br />
-    <!-- top of  page -->
-    <div class="container-fluid ">
-      
-      <h1 class="display-6 text-center text-dark shadow-lg">
-        <u>Moving Eye Demo</u>
-      </h1>
-      <br />
+    <!-- MIT Certification banner-->
+    <div style="background-color: rgb(3, 32, 32)">
+      <p
+        class="text-center text-decoration-underline"
+        style="color: rgb(250, 255, 254)"
+      >
+        MIT Coding Certification: Full Stack Development with MERN - October
+        2022
+      </p>
     </div>
+    <!-- top of  page -->
+    <div
+      style="
+        background-image: url('./MITBannerHomepage.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      "
+    >
+      <h1
+        class="display-1 text-center mb-5 text-decoration-underline"
+        style="color: rgb(250, 255, 254)"
+      >
+        Moving Eye Demo
+      </h1>
+    </div>
+    <br />
 
     <!--demo content -->
     <div class="myFlexcontainer">
@@ -108,42 +145,67 @@
     </div>
     <br />
 
-    <!-- Description-->
-    <div class="container-fluid p-3 shadow-lg">
-      <h1 class="display-6 text-dark shadow-lg">
-        <u>Description</u>
-      </h1>
+    <!--Moving Eyes Projects-->
+    <div class="container shadow-lg opacity-80">
+      <div class="row p-md-2">
+        <!--  Moving eyes description-->
+        <div class="col">
+          <span class="d-block p-2 opacity-100 shadow-lg">
+            <h1
+              class="card-title display-6 opacity-75"
+              style="background-color: aliceblue; color: rgb(12, 13, 15)"
+            >
+              Description
+            </h1>
+            <div class="border border-success p-2 mb-2">
+              <article style="background-color: aliceblue">
+                <p>
+                  This Demo is a JavaScript application that utilizes HTML and
+                  CSS to create an image of eyes on the webpage. Instead of
+                  using an image file, the image is created using HTML
+                  components such as div, span, and containers. <br />
+                  The JavaScript component of the project uses mouse event
+                  listeners to detect the movement of the cursor on the screen
+                  and updates the position of the eye elements accordingly. The
+                  position of the eye elements is updated in real-time, so that
+                  it appears as if the eyes are following the movement of the
+                  cursor, simulating the effect of eye tracking. This approach
+                  allows for more flexibility and control over the design of the
+                  eyes, and creates an interactive and immersive experience for
+                  the user. This project could be used in website design,
+                  gaming, or other interactive applications to create a more
+                  engaging experience for the user.
+                </p>
+              </article>
+            </div>
+          </span>
 
-      <div class="text-bg-info text-dark p-3 shadow-lg">
-        <p>
-          This Demo is a JavaScript application that utilizes HTML and CSS to create an image of eyes on the webpage. Instead of using an image file, the image is created using HTML components such as div, span, and containers. <br> The JavaScript component of the project uses mouse event listeners to detect the movement of the cursor on the screen and updates the position of the eye elements accordingly. The position of the eye elements is updated in real-time, so that it appears as if the eyes are following the movement of the cursor, simulating the effect of eye tracking.
-
-          This approach allows for more flexibility and control over the design of the eyes, and creates an interactive and immersive experience for the user. This project could be used in website design, gaming, or other interactive applications to create a more engaging experience for the user.   
-        </p>
+          <div class="card-body">
+            <a
+              href="#"
+              onclick="window.open('https://github.com/SElarabi/Eye_Exercise','blanck')"
+              class="btn btn-primary"
+              >Github repository</a
+            >
+          </div>
+        </div>
       </div>
     </div>
-
+    <br />
     <!-- link to github repository-->
     <!-- Description-->
-    <div class="container-fluid p-3 shadow-lg">
-      
-      <h1 class="display-6 text-dark shadow-lg">
-        <u>Github repository </u>
-        
-      </h1>
-      </div>
 
-    <!-- Footer -->
-    <footer class="container-fluid fixed-bottom p-3 shadow-lg"c>
-        <div  class="container-fluid ">
-          <a class="navbar-brand " >
-            
-          </a>
-            <p class="text-center mb-0">
-              Copyright &copy; 2023 S-E-larabi 
-            </p>
-          </div>
-      </footer>
+    <footer
+      style="
+        color: aliceblue;
+        background-color: rgb(3, 32, 32);
+        margin-top: auto;
+      "
+    >
+      <div class="container">
+        <p class="text-center mb-0">Copyright &copy; 2023 S.E.Larabi</p>
+      </div>
+    </footer>
 
     <!-- JavaScript eye.js import-->
     <script src="./eyes.js"></script>
