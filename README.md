@@ -1,19 +1,24 @@
 <!-- @format -->
 
 # Eye_Exercise
+Visit site: https://selarabi.github.io/Eye_Exercise/
 
-<h3> Description <h3>
-<p> Web page with two eyes that follows your mouse movement.</p>
+## Description ##
+<p> Web page with two eyes that follows mouse movement.</p>
 
-<p> This Demo is a JavaScript application that utilizes HTML and CSS to create an image of eyes on the webpage. Instead of using an image file, the image is created using HTML components such as div, span, and containers.<br>
-The JavaScript component of the project uses mouse event listeners to detect the movement of the cursor on the screen and updates the position of the eye elements accordingly. The position of the eye elements is updated in real-time, so that it appears as if the eyes are following the movement of the cursor, simulating the effect of eye tracking. This approach allows for more flexibility and control over the design of the eyes, and creates an interactive and immersive experience for the user. <br>
+## How to Run ##
+<p> This Demo,instead of using an image file, a JavaScript application coded in eye.js file utilizes HTML elements and style them with style.css to create an image of eyes on the webpage . <br> 
+
+The JavaScript component of the project uses mouse event listeners to detect the movement of the cursor on the screen and updates the position of the eye elements accordingly. <br>
+The position of the eye elements is updated in real-time, so that it appears as if the eyes are following the movement of the cursor, simulating the effect of eye tracking. This approach allows for more flexibility and control over the design of the eyes, and creates an interactive and immersive experience for the user. <br>
 This project could be used in website design, gaming, or other interactive applications to create a more engaging experience for the user.
 </p>
 
-<h3>MIT License</h3>
-<h4>Copyright (c) 2023 Eddie Larabi
-</h4>
-<article>
+
+## MIT License ##
+ ### Copyright (c) 2023 Eddie Larabi
+
+
 <p>
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +39,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </p>
-</article>
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
