@@ -7,7 +7,7 @@ Visit site: https://selarabi.github.io/Eye_Exercise/
 <p> Web page with two eyes that follows mouse movement.</p>
 
 ## How to Run ##
-### Demo display and eye.js
+### Demo display and eye.js File
 <p> This Demo,instead of using an image file, a JavaScript application coded in eye.js file utilizes HTML elements and style them with style.css to create an image of eyes on the webpage . <br> 
 
 The JavaScript component of the project uses mouse event listeners to detect the movement of the cursor on the screen and updates the position of the eye elements accordingly. <br>
